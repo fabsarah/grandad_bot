@@ -1,0 +1,26 @@
+def Robot_Grandad():
+    from random import randint
+    a = randint(0,2) #selects a random integer between 0 and 2. Increase this if you wat to add more phrases
+    if a==0: #the integer selected corresponds to the responses below. Customize as you like.
+        input('Grandad: What''s goin'' on today, my dear? \n')
+    elif a==1:
+        input('Grandad: Christ Jesus, what''s the matter now? \n')
+    elif a==2:
+        input('Grandad: How you gettin'' on now, darlin''? \n')
+    b = randint(0,7);#when the user responds and hits 'enter', Robot Grandad adivses one of the following
+    if b==0:
+        print('Grandad: Well don''t go out with wet hair, then. \n');
+    elif b==1:
+        print('Grandad: Have a spoonful of molasses and then go have a lie-down. \n');
+    elif b==2:
+        print('Grandad: Did you gargle with warm water and salt? \n');
+    elif b==3:
+        print('Grandad: Then gargle with warm water and salt. \n');
+    elif b==4:
+        print('Grandad: Boil an onion. Then eat it. \n');
+    elif b==5:
+        print('Grandad: Go have a lie-down. \n');
+    elif b==6:
+        print('Grandad: Put on another pair of socks. \n');
+    elif b==7:
+        print('Grandad: Shot a'' rum. That''s what you need. \n');
